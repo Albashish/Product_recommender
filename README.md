@@ -6,5 +6,5 @@ The output is stored in sample.json file.
 The product descriptions extracted are then used as an input in the dataset.py file to calculate the embeddings(or embedding vectors).
 These embeddings are called in the use.py file to calculate the pairwise cosine similarity with the embedding of query.
 To calculate the embeddings, Google's universal sentence encoder is used.
-
+The function is containerized using Docker and deployed on GCP using FastAPI and uvicorn.
 
