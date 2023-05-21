@@ -1,0 +1,9 @@
+fastapi[all]
+uvicorn[standard]
+numpy
+requests>=2.27.1
+bs4
+selenium
+tensorflow
+tensorflow_hub
+scikit-learn
